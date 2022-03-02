@@ -1,0 +1,48 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.calendar {
+  display: flex;
+  width: 900px;
+  height: 800px;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-name {
+  margin-bottom: 20px;
+}
+
+.calendar-month {
+  display: flex;
+  flex-flow: row wrap;
+  width: 700px;
+  height: 500px;
+}
+
+.calendar-month .date { 
+ width: 100px;
+ height: 100px;
+ border: #dadce0 1px solid;
+}
+
+.btn-group{
+  position: absolute;
+}
+
+.btn-prev
+ ,.btn-next
+ ,.btn-today{
+  border: none;
+  background-color: azure;
+}
